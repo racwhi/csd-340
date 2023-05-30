@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+}
+h1 {
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  font-weight: 500;
+  text-align: left;
+  padding-top: 15px;
+}
+p {
+  line-height: 1.4em;
+}
+address {
+  text-align: center;
+}
+a {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #4f3674;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  background-color: #d6a800;
+}
+a:visited {
+  color: rgb(30, 29, 29);
+}
+.intro {
+  text-indent: 2em;
+}
+.sentence {
+  font-style: italic;
+}
