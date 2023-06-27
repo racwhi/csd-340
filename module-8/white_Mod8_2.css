@@ -1,0 +1,97 @@
+#navbar,
+footer,
+header {
+  color: white;
+  background-color: black;
+}
+h1 {
+  font-weight: 400;
+}
+header {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+#navbar {
+  border-bottom: solid 15px green;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+#navbar a {
+  text-align: left;
+  color: green;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar a:hover {
+  background-color: yellowgreen;
+  color: yellow;
+}
+/*#container {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+}*/
+#container {
+  margin: 2% 5% 100px 5%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
+.card-title {
+  text-align: center;
+  color: rgb(13, 7, 94);
+  font-size: 2em;
+  font-weight: 400;
+}
+.card-content {
+  padding: 2px 16px;
+}
+.card:hover {
+  background-color: green;
+  color: yellow;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+footer p {
+  color: white;
+  background-color: black;
+  font-weight: 400;
+  padding-right: 10px;
+  font-style: italic;
+  float: right;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+th,
+td {
+  padding: 7px 10px 10px 10px;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+td {
+  border: 1px solid #ddd;
+}
+#cp {
+  text-align: left;
+  font-style: italic;
+}
