@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+      function displayImage(imageFile) {
+        var largerImage = document.getElementById("mainImage");
+        var newNode = document.createElement("img");
+        newNode.id = "mainImage";
+        newNode.src = imageFile;
+        newNode.alt = "Large Image";
+        newNode.className = "mainImage";
+        newNode.style.width = "300px";
+        newNode.style.height = "200px";
+        largerImage.parentNode.replaceChild(newNode, largerImage);
+      }
+    </script>
+    <link href="white_Mod10_3.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+    <br />
+    <div>
+      <a
+        href="#"
+        onmouseover="emotion.src='happy.png';"
+        onmouseout="emotion.src='sad.png';"
+      >
+        <img border="0" name="emotion" src="happy.png" />
+      </a>
+    </div>
+    <br />
+    <div
+      onmouseover="this.style.color='red';"
+      onmouseout="this.style.color='black';"
+    >
+      Run your mouse over the image to change the emotion.
+      <br />
+    </div>
+    <div>
+      <a
+        href="#"
+        onmouseover="moon.src='sun.png';"
+        onmouseout="moon.src='moon.png';"
+      >
+        <img border="0" name="moon" src="moon.png" />
+      </a>
+    </div>
+    <br />
+    <div
+      onmouseover="this.style.color='red';"
+      onmouseout="this.style.color='black';"
+    >
+      Run your mouse over the image to change.
+      <br />
+      Right-click and select View Source for more details.
+    </div>
+  </body>
+</html>
