@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+      values = [];
+
+      function addRecord() {
+        var addinput = document.getElementById("inputtext");
+        values.push(addinput.value);
+        addinput.value = "";
+        alert("The list of item(s) includes:" + " "+values );
+      }
+
+      function displayRecord() {
+        document.getElementById("values").innerHTML = values.join(", ");
+      }
+      function deleteLastRecord() {
+        document.getElementById("values").innerHTML = values.pop();
+    
+        
+
+      
+}
+      
+    </script>
+  </head>
+  <body>
+    <h1>Assignment 11.2: JavaScript - Part 3</h1>
+    <p>
+      This is an interactive To Do List. To Add item, type item in textbox then click add. Click the Display button to see entire item list.
+      Click Delete Last Entry to remove the last entry , the deleted value will on the screen ,then click Display to show the new list.
+    </p>
+    <input type="text" id="inputtext" />
+    <button type="button" id="add" onclick="addRecord();">Add</button>
+    <button type="button" id="display" onclick="displayRecord();">
+      Display
+    </button>
+    <button type="menu" id="delete" onclick="deleteLastRecord();">
+      Delete Last Item
+    </button>
+    <hr />
+    <h3>List will display after "Display" is clicked: </h5>
+    
+    <div id="values"></div>
+  </body>
+</html>
