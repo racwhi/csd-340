@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+}
+#left {
+  float: left;
+  width: 45%;
+  border-width: 1px;
+  border-radius: 15px;
+  border: solid;
+  list-style-position: inside;
+  border-color: red;
+}
+#right {
+  float: right;
+  width: 45%;
+  border-width: 1px;
+  border-radius: 15px;
+  border: solid;
+  list-style-position: inside;
+  border-color: red;
+}
+#landing {
+  width: 100%;
+  margin-top: 60%;
+  text-align: right;
+  margin-bottom: 20px;
+}
+h3 {
+  font-weight: 500;
+  margin-left: 25px;
+}
+li {
+  font-weight: 300;
+}
+ul {
+  list-style-type: upper-roman;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  background-color: red;
+}
+a:visited {
+  color: rgb(30, 29, 29);
+}

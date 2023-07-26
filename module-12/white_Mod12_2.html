@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Module 2 Assignment 2.2" />
+    <title>CSD 340 Development with HTML and CSS</title>
+    <link href="white_Mod12_2.css" type="text/css" rel="stylesheet" />
+    <script>
+      var movies = [];
+      function ascendingsort() {
+        movies.sort();
+      }
+
+      function descendingsort() {
+        movies.sort().reverse();
+      }
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Assignment 12.2: Javascript - Part 4</h1>
+      <div id="left">
+        <h3>Top 8 Movie Genres</h3>
+        <button type="button" id="top" onclick="ascendingsort();">
+          Top to Bottom
+        </button>
+        <button type="button" id="bottom" onclick="descendingsort();">
+          Bottom to Top
+        </button>
+        <hr />
+        <ol class="movies">
+          <li>Action</li>
+          <li>Comedy</li>
+          <li>Thriller</li>
+          <li>Adventure</li>
+          <li>Mystery</li>
+          <li>Musical</li>
+          <li>Documentary</li>
+          <li>Horror</li>
+        </ol>
+      </div>
+      <div id="right">
+        <h3>5 Things I've Learned Since the Course Started</h3>
+        <ul>
+          <li>HTML is the structure of a webpage</li>
+          <li>HTML is like a document</li>
+          <li>CSS styles HTML</li>
+          <li>
+            There are debates on rather HTML and CSS are programming languages
+            or not
+          </li>
+          <li>I enjoy learning about HTML and CSS</li>
+        </ul>
+      </div>
+      <div id="landing">
+        <a href="/index.html"> back to Landing Page</a>
+      </div>
+    </div>
+  </body>
+</html>
